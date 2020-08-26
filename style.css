@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  background-color: #bfbfbf;
+  height: 100%;
+  width: 100%;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #898989;
+  background: linear-gradient(180deg, rgba(191,191,191,1) 0%, rgba(98,98,98,1) 90%);
+
+}
+
+.logo {
+  height: 7rem;
+  width: 7rem;
+  background-image: url("LogoBlom.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.fa-bars {
+  color: white;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.photobox {
+  width: 100%;
+  height: 100%;
+}
+
+.beerphoto {
+  height: 11rem;
+  background-image: url("beer_main.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.barrelphoto {
+  height: 11rem;
+  border-top: 5px solid black;
+  background-image: url("barrels.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: white;
+}
+
+.maininfo {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #bfbfbf;
+}
+
+.presentation {
+  padding: 1rem;
+  background: linear-gradient(0deg, rgba(191,191,191,1) 0%, rgba(98,98,98,1) 90%);
+
+}
+
+.contacts {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+img {
+  height: 9rem;
+  width: auto;
+}
+
+button {
+  border-radius: 1rem;
+  margin: 1rem;
+  font-family: acumin-pro, sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  background-color: #898989;
+  background: linear-gradient(180deg, rgba(191,191,191,1) 0%, rgba(98,98,98,1) 90%);
+
+}
+
+.fa-twitter, .fa-facebook-f, .fa-instagram {
+  color: #f9b233;
+  font-size: 3rem;
+}
+
