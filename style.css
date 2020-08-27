@@ -11,6 +11,7 @@ body {
 /* CSS FÖR IPAD OCH WEBB*/
 
 @media screen and (min-width: 768px) {
+
   .mobile {
     display: none;
   }
@@ -26,7 +27,7 @@ body {
 
   .beerphoto,
   .barrelphoto {
-    height: 20rem;
+    height: 25rem;
     width: 100%;
   }
 
@@ -126,6 +127,10 @@ header {
   align-items: center;
   margin-left: 2rem;
   margin-right: 2rem;
+}
+
+p {
+  margin: 0;
 }
 
 button {
