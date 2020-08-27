@@ -1,5 +1,5 @@
 # Blommans
 Hemsida för mitt fiktiva bryggeri Blommans i kursen Grafiska Verktyg
 
-#Github pages: 
+# Github pages: 
 https://isabelblomstrom.github.io/Blommans/
