@@ -8,28 +8,63 @@ body {
   font-style: normal;
 }
 
+/* CSS FÖR IPAD OCH WEBB*/
+
+@media screen and (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+
+  .logo {
+    height: 12rem;
+    width: 12rem;
+  }
+
+  .photobox {
+    display: flex;
+  }
+
+  .beerphoto,
+  .barrelphoto {
+    height: 20rem;
+    width: 100%;
+  }
+
+  .barrelphoto {
+    border-left: 5px solid black;
+
+  }
+
+img {
+  height: 15rem;
+}
+}
+
+/* GENERELL CSS */
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 1rem;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #898989;
-  background: linear-gradient(180deg, rgba(191,191,191,1) 0%, rgba(98,98,98,1) 90%);
-
+  background: linear-gradient(
+    180deg,
+    rgba(191, 191, 191, 1) 0%,
+    rgba(98, 98, 98, 1) 90%
+  );
 }
 
 .logo {
-  height: 7rem;
-  width: 7rem;
   background-image: url("LogoBlom.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-.fa-bars {
-  color: white;
-  font-size: 2rem;
-  margin: 1rem;
 }
 
 .photobox {
@@ -38,7 +73,6 @@ header {
 }
 
 .beerphoto {
-  height: 11rem;
   background-image: url("beer_main.jpg");
   background-size: cover;
   display: flex;
@@ -47,8 +81,6 @@ header {
 }
 
 .barrelphoto {
-  height: 11rem;
-  border-top: 5px solid black;
   background-image: url("barrels.jpg");
   background-size: cover;
   display: flex;
@@ -56,8 +88,9 @@ header {
   align-items: center;
 }
 
-p {
+.headings {
   color: white;
+  font-size: 2rem;
 }
 
 .maininfo {
@@ -69,24 +102,35 @@ p {
 }
 
 .presentation {
-  padding: 1rem;
-  background: linear-gradient(0deg, rgba(191,191,191,1) 0%, rgba(98,98,98,1) 90%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background: linear-gradient(
+    0deg,
+    rgba(191, 191, 191, 1) 0%,
+    rgba(98, 98, 98, 1) 90%
+  );
+}
 
+.webbpres {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-left: 2rem;
   margin-right: 2rem;
 }
 
-img {
-  height: 9rem;
-  width: auto;
-}
-
 button {
-  border-radius: 1rem;
-  margin: 1rem;
+  border-radius: 0.5rem;
+  margin: 1.2rem;
   font-family: acumin-pro, sans-serif;
 }
 
@@ -95,12 +139,16 @@ footer {
   justify-content: space-evenly;
   padding: 1rem;
   background-color: #898989;
-  background: linear-gradient(180deg, rgba(191,191,191,1) 0%, rgba(98,98,98,1) 90%);
-
+  background: linear-gradient(
+    180deg,
+    rgba(191, 191, 191, 1) 0%,
+    rgba(98, 98, 98, 1) 90%
+  );
 }
 
-.fa-twitter, .fa-facebook-f, .fa-instagram {
+.fa-twitter,
+.fa-facebook-f,
+.fa-instagram {
   color: #f9b233;
   font-size: 3rem;
 }
-

@@ -1,0 +1,29 @@
+@media screen and (max-width: 640px) {
+ .webb, .webbpres {
+   display: none;
+ }
+
+ .logo {
+  height: 7rem;
+  width: 7rem;
+ }
+
+ .fa-bars {
+  color: white;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.beerphoto, .barrelphoto {
+  height: 11rem;
+}
+
+.barrelphoto {
+  border-top: 5px solid black;
+
+}
+
+img {
+  height: 9rem;
+}
+}
